@@ -4,7 +4,7 @@
 
 ### List all accesible paths functions prints all paths from the assumed root Directory. 
 
-### Write format - WRITE PATH DATA ASYN_FlAG ->If flag is 1 forced write happens(Synchrouns) if it is 0 our SS decides if it has to be written Synchronously or Asynchronusly.Our Threshold for Asynchronous Write is 1MB of data.
+### Write format - WRITE PATH DATA ASYNC_FlAG ->If flag is 1 forced write happens(Synchronous) if it is 0 our SS decides if it has to be written Synchronously or Asynchronusly.Our Threshold for Asynchronous Write is 1MB of data.
 
 ### Our Copy src dest only works of when both are either Directoris or Files.
 
