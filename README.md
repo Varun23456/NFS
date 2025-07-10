@@ -4,7 +4,7 @@
 A distributed network file system implementation built in C as part of the Operating Systems and Networks course project. This system provides seamless file operations across multiple storage servers with fault tolerance, caching, and concurrent access management.
 
 
-## 🔍 Overview
+## Overview
 
 This Network File System (NFS) implementation provides a distributed storage solution where multiple clients can access files stored across multiple storage servers through a centralized naming server. The system ensures data consistency, fault tolerance, and efficient file operations in a networked environment.
 
