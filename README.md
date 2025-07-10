@@ -203,7 +203,7 @@ nfs-distributed/
 ├── makefile                # Build configuration
 ```
 
-## 📋 Assumptions
+## Assumptions
 
 ### System Assumptions
 - **Network Reliability**: Assumes reasonably stable network connectivity
