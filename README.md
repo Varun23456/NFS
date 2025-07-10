@@ -1,5 +1,5 @@
 
-# Distributed Network File System (NFS) 🌐
+# Distributed Network File System (NFS) 
 
 A distributed network file system implementation built in C as part of the Operating Systems and Networks course project. This system provides seamless file operations across multiple storage servers with fault tolerance, caching, and concurrent access management.
 
@@ -14,22 +14,22 @@ This Network File System (NFS) implementation provides a distributed storage sol
 - **Client (CL)**: Interface for users to perform file operations seamlessly
 
 
-## ✨ Features
+## Features
 
-### 🔐 Core Functionality
+### Core Functionality
 - **Distributed Storage**: Files distributed across multiple storage servers
 - **Centralized Metadata**: Naming server maintains file system hierarchy
 - **Transparent Access**: Clients access files as if they were local
 - **Concurrent Operations**: Multiple clients can access the system simultaneously
 
-### 🚀 Advanced Features
+### Advanced Features
 - **Fault Tolerance**: Automatic failover and recovery mechanisms
 - **Caching**: Client-side and server-side caching for improved performance
 - **Load Balancing**: Intelligent distribution of files across storage servers
 - **Consistency**: Strong consistency guarantees for file operations
 - **Replication**: Data replication for reliability and availability
 
-### 📁 File Operations
+### File Operations
 - **CREATE**: Create new files and directories
 - **READ**: Read file contents with efficient streaming
 - **WRITE**: Write and append to files
@@ -38,12 +38,12 @@ This Network File System (NFS) implementation provides a distributed storage sol
 - **LIST**: List directory contents
 - **INFO**: Get file metadata and statistics
 
-### 🔧 System Operations
+### System Operations
 - **MOUNT**: Mount remote file systems
 - **BACKUP**: Create backups of critical data
 - **RESTORE**: Restore from backups
 
-## 🛠️ Components
+## Components
 
 ### Naming Server (NS)
 Central coordinator that manages the file system namespace and metadata.
@@ -92,7 +92,7 @@ User interface for interacting with the distributed file system.
 - **Error Handling**: Comprehensive error reporting
 - **Performance Monitoring**: Track operation statistics
 
-## 📥 Installation
+## Installation
 
 ### Prerequisites
 - GCC compiler (version 7.0 or higher)
@@ -187,7 +187,7 @@ SYNC
 | `9` | Operation timeout |
 | `10` | Unknown error |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 nfs-distributed/
@@ -231,7 +231,7 @@ nfs-distributed/
 - **Graceful Degradation**: System continues operating with reduced functionality during failures
 
 
-## 🐛 Known Issues and Limitations
+## Known Issues and Limitations
 
 ### Current Limitations
 - **Single Point of Failure**: Naming server represents a single point of failure
